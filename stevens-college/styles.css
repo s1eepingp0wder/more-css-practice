@@ -1,1 +1,53 @@
 /* Add your CSS here */
+html{
+  font-family: Helvetica, Arial, sans-serif;
+}
+h1{
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: 600;
+  width: 50%;
+  margin-top: -10px;
+  margin-bottom: -5px;
+  /* No text cursor over text. Personal preference but... */
+  cursor: default;
+}
+#video div{
+  margin: auto;
+}
+/* Let's make this stuff unable to be selected. Looks bad if we can. */
+nav div{
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  margin: 0 10px;
+  padding: 15px 0 0 0;
+  background: #910a25;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  transition: background 2s;
+  /*Safari Browsers*/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  /*Firefox*/
+  -moz-user-select: none;
+  /*Generic*/
+  user-select: none;
+
+  cursor: pointer;
+
+}
+nav div:hover{
+  background: #ff2651;
+}
+p{
+  margin: 40px 10px;
+  width: 50%;
+  font-size: 1.1em;
+  cursor: default;
+}
+a{
+  cursor: pointer;
+}
