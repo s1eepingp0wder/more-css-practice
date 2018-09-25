@@ -1,17 +1,54 @@
 html{
   background: #efefef;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
-.page{
+body{
   border-radius: 5px;
   background: white;
   border: 1px #e2e2e2 solid;
-}
-div{
-  float:left;
+  height: 50em;
+  width: 97%;
+  position: relative;
+  top: 10px;
+  margin: 0 auto;
 }
 .navbar{
-  width: 20%;
+  float: left;
+  width: 10%;
+  border-right: 1px #e2e2e2 solid;
+  height: 100%;
+  padding: 20px;
+  margin-right: 20px;
+}
+.navbar div{
+  position: static;
+  padding-left: 40px;
+  margin-left: -20px;
+  margin-bottom: 20px;
+  display: block;
+  width: inherit;
+  box-sizing: inherit;
+}
+.navbar div:hover{
+  font-weight: bolder;
 }
 .mainbar{
-  width: 70%;
+  padding: 20px;
+  border-right: 1px #e2e2e2 solid;
+  box-sizing: border-box;
+}
+.light{
+  text-transform: uppercase;
+  color: #b7b7b7;
+}
+h1{
+  font-weight: 300;
+  font-size: 2em;
+}
+h2{
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+strong{
+  font-weight: bolder;
 }
