@@ -1,1 +1,17 @@
-/* Add your CSS here */
+html{
+  background: #efefef;
+}
+.page{
+  border-radius: 5px;
+  background: white;
+  border: 1px #e2e2e2 solid;
+}
+div{
+  float:left;
+}
+.navbar{
+  width: 20%;
+}
+.mainbar{
+  width: 70%;
+}
