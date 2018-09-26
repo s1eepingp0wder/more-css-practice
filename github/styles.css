@@ -53,3 +53,19 @@ html{
 larger{
     font-size: 1.5em;
 }
+.wrapperbottom{
+  position: absolute;
+    left: 500px;
+}
+.wrapperbottom h2{
+  margin-top: -10px;
+}
+.wrapperbottom img{
+  float: left;
+  margin: 0 10px 150px 0;
+}
+.wrapperbottom div{
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+}
