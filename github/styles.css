@@ -35,8 +35,7 @@ html{
   margin-right: auto;
   text-align: center;
   color: dimgrey;
-  font-size: 1.5em;
-  width: 29em;
+  width: 35em;
 }
 .centered{
   margin: 0 auto;
@@ -45,9 +44,12 @@ html{
   font-size: 1.5em;
   position: static;
   display: inline-block;
-  margin: 0 25px;
+  margin: 0 10px;
   padding: 15px 0 0 0;
   text-align: center;
   cursor: pointer;
   color: deepskyblue;
+}
+larger{
+    font-size: 1.5em;
 }
