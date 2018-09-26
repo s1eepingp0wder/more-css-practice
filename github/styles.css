@@ -1,6 +1,7 @@
 html{
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   background: #fefefe;
+  cursor: default;
 }
 .top{
   position: absolute;
@@ -14,16 +15,39 @@ html{
   text-decoration: none;
 }
 .top a:hover{
+  cursor: pointer;
   color: deepskyblue;
   text-decoration: none;
 }
 .midtop{
   font-size: 2.5em;
-  font-weight: thin;
+  font-weight: bold;
   align: center;
   text-align: center;
   width: 12em;
   margin-right: auto;
   margin-left: auto;
   margin-top: 6em;
+}
+.bottomtop{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: dimgrey;
+  font-size: 1.5em;
+  width: 29em;
+}
+.centered{
+  margin: 0 auto;
+}
+.centered div{
+  font-size: 1.5em;
+  position: static;
+  display: inline-block;
+  margin: 0 25px;
+  padding: 15px 0 0 0;
+  text-align: center;
+  cursor: pointer;
+  color: deepskyblue;
 }
